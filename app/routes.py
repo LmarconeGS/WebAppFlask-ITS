@@ -12,3 +12,8 @@ def init_app(app):
         numero = random.randint(1, 100)
         #render_template prende i template dalla cartella templates se il file html si trova in una sottocartella va scritto nel percorso es. sottocartella/home.html
         return render_template("home.html", numero=numero)
+    
+    @app.route("/prova")
+    def prova():
+
+        return render_template("home2.html")
