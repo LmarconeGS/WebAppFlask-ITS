@@ -1,0 +1,9 @@
+
+#variaibli di sistema
+.env
+
+#ambiente virtuale
+/venv 
+
+/.idea
+/.vscode
