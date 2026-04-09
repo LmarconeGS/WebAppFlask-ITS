@@ -15,5 +15,5 @@ def init_app(app):
     
     @app.route("/prova")
     def prova():
-
+        #richiamiamo un altro template ma che estende lo stesso file base.html
         return render_template("home2.html")
